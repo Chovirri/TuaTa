@@ -1,0 +1,91 @@
+/* styles3.css */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Color de fondo */
+}
+
+header {
+    background-color: #333; /* Color de encabezado */
+    color: white;
+    padding: 1rem;
+}
+
+.logo img {
+    height: 50px; /* Ajusta el tamaño del logo */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px; /* Espacio entre enlaces */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.product-detail {
+    text-align: center; /* Centrar texto */
+    padding: 20px;
+    background-color: white; /* Fondo blanco para la sección */
+    border: 1px solid #ccc; /* Borde gris */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    max-width: 600px; /* Ancho máximo */
+    margin: 20px auto; /* Centrar en la página */
+}
+
+.product-info {
+    display: flex; /* Usar flexbox para alinear */
+    align-items: center; /* Centrar verticalmente */
+}
+
+#product-image,
+#qr-image {
+    width: 180px; /* Ajusta el tamaño de las imágenes */
+    height: auto; /* Mantener proporciones */
+    border-radius: 8px; /* Bordes redondeados */
+    margin-right: 20px; /* Espacio a la derecha de la imagen */
+}
+
+#qr-image {
+    margin-top: 10px; /* Espacio superior para el QR */
+}
+
+.product-details h3 {
+    margin: 0;
+}
+
+.product-details p {
+    font-size: 1.5rem; /* Tamaño del precio */
+    color: #333; /* Color del precio */
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #28a745; /* Color del botón */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.btn:hover {
+    background-color: #218838; /* Color al pasar el ratón */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333; /* Color del pie de página */
+    color: white;
+}
